@@ -14,3 +14,4 @@ jobs:
       - uses: rongxin-liu/python-merge-schedule@v1.0
         env:
           TIMEZONE: America/New_York
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
