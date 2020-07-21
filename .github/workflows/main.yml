@@ -11,7 +11,7 @@ jobs:
   python-merge:
     runs-on: ubuntu-latest
     steps:
-      - uses: rongxin-liu/python-merge-schedule@v1.0
+      - uses: rongxin-liu/python-merge-schedule@v1.1
         env:
           TIMEZONE: America/New_York
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
