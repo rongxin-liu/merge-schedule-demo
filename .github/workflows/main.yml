@@ -16,6 +16,7 @@ jobs:
           repository: cs50/python-merge-schedule
           token: ${{ secrets.ACCESS_TOKEN }}
           path: python-merge-schedule
+      - uses: ./.github/actions/python-merge-schedule
         env:
           TIMEZONE: America/New_York
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
