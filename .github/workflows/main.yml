@@ -19,4 +19,5 @@ jobs:
       - uses: ./python-merge-schedule
         env:
           TIMEZONE: America/New_York
+          BASE_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
